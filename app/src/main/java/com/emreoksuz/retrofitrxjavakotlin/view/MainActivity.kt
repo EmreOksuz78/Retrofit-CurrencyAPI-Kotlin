@@ -27,8 +27,8 @@ import retrofit2.create
 
 class MainActivity : AppCompatActivity(),RecyclerViewAdapter.Listener{
 
-    //private val BASE_URL="ENTER BASE_URL"
-    private val BASE_URL="https://raw.githubusercontent.com/"
+    private val BASE_URL="ENTER BASE_URL"
+
     private var cryptoModels : ArrayList<CryptoModel>? = null
     private lateinit var binding: ActivityMainBinding
     private var recyclerViewAdapter:RecyclerViewAdapter?=null

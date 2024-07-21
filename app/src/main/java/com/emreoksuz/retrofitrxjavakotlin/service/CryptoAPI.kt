@@ -7,8 +7,7 @@ import retrofit2.http.GET
 
 interface CryptoAPI {
 
-    //@GET("ENTER EXTEND")
-    @GET("atilsamancioglu/K21-JSONDataSet/master/crypto.json")
+    @GET("ENTER EXTEND")
     suspend fun getData():Response<List<CryptoModel>>
 
 }
